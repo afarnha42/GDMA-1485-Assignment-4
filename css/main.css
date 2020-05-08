@@ -95,6 +95,10 @@ p {
 @media screen and (min-width: 768px) {     /*medium display */
 }
 
+header li {
+	display: block;
+}
+
 
 @media screen and (min-width: 1024px) {    /*large display */
 	#hero {
@@ -228,11 +232,11 @@ nav ul {
 	text-align: center;
 }
 
-#all-small div:first-child, #awesome div:first-child, #loop div:first-child, #roi div:first-child {
+#all-small div:first-child, #awesome div:first-child, #loop div:first-child, #roi div:first-child, #generate div div {
 	float: left;
 }
 
-#all-small div:last-child, #awesome div:last-child, #loop div:last-child, #roi div:last-child {
+#all-small div:last-child, #awesome div:last-child, #loop div:last-child, #roi div:last-child, #generate div div:nth-child(2) {
 	float: right;
 }
 
