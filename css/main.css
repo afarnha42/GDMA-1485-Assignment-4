@@ -51,13 +51,20 @@
 /*--------------------------------------------------------------
 3.0 - GENERIC
 -------------------------------------------------------------- */
-
+html {
+	font-size: 9pt;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: capitalize;
+}
 /*--------------------------------------------------------------
 4.0 - ELEMENTS
 -------------------------------------------------------------- */
 /* -- FORMS -- */
 
 /* -- LISTS -- */
+ul {
+	list-style: none;
+}
 
 /* -- MEDIA -- */
 
@@ -65,7 +72,21 @@
 
 /* -- TYPOGRAPHY -- */
 
+a {
+	text-decoration: none;
+}
 
+p {
+	font-size: 1rem;
+	line-height: 2em;
+	color: #707ba8;
+	margin-bottom: 2.5em;
+}
+
+ .span1 {
+	font-size: 2rem;
+	color: #4043bc;
+}
 
 /*--------------------------------------------------------------
 5.0 - OBJECTS
@@ -102,15 +123,201 @@
 	max-width: 100%;
 }
 
+#bg-hero p {
+	text-align: left;
+}
 
+#whatwewilldo a {
+	text-transform: uppercase;
+	color: #c4ccd8;
+}
 
+#whatwewilldo div {
+	padding-bottom: 8em;
+}
 
 
 /* -- BUTTONS -- */
 
-/* -- HEADER -- */
+.btn {
+	padding: .5em;
+	color: #fff;
+	text-align: center;
 
+	-webkit-border-radius: .25rem;
+	-ms-border-radius: .25rem;
+	-o-border-radius: .25rem;
+	-moz-border-radius: .25rem;
+	border-radius: .25rem;
+}
+
+.btn:first-child {
+	padding: .5em;
+}
+/* -- HEADER -- */
+h1, footer p:first-of-type {
+	text-align: center;
+	font-size: 2rem;
+	color: #4043bc;
+	
+}
+
+header div p:last-child {
+	text-align: center;
+}
+
+.hero-type {
+	font: 800 1.5rem 'Open Sans', sans-serif;
+	text-align: left;
+	color: #2b4a80;
+	text-transform: capitalize;
+	margin-bottom: 0;
+}
+
+h2 {
+	font-size: 2rem;
+	text-align: center;
+	color: #2b4a80;
+	margin: 6em 0;
+	
+}
+
+
+h3 {
+	font-size: 1.75rem;
+	color: #2b4a80; 
+	text-align: center;
+	margin-bottom: 3em;
+}
+
+h4, h6 {
+	font-size: 1.25rem;
+	margin-top: 0;
+	color: #2b4a80;
+}
+
+h5 {
+	font-size: 3rem;
+	color: #2b4a80;
+	margin: 1em 0;
+}
+
+h6 {
+	margin-top: 3em;
+}
 /* -- NAVIGATION -- */
+nav li {
+	display: inline-block;
+	padding-right: .5em;
+	margin: 0 auto;
+	font-size: 1em;
+	
+}
+
+nav li:last-child {
+	padding-right: 0;
+	
+}
+
+nav ul {
+	margin-bottom: 2em;
+}
+
+
+#whatwewilldo {
+	text-align: center;
+}
+
+#all-small div:first-child, #awesome div:first-child, #loop div:first-child, #roi div:first-child {
+	float: left;
+}
+
+#all-small div:last-child, #awesome div:last-child, #loop div:last-child, #roi div:last-child {
+	float: right;
+}
+
+#choose {
+	text-align: center;
+}
+
+#choose ul {
+	line-height: 2em;
+	margin-bottom: 4em;
+}
+
+#bg-hero {
+	background: url("../img/hero.jpg") no-repeat scroll; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	-ms-background-size: cover;
+  	background-size: cover;
+	height: 350px;
+}
+#tips1 {
+	background: url("../img/tips1.jpg") no-repeat scroll; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	-ms-background-size: cover;
+  	background-size: cover;
+	height: 350px;
+}
+
+#tips2 {
+	background: url("../img/tips2.jpg") no-repeat scroll; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	-ms-background-size: cover;
+  	background-size: cover;
+	height: 350px;
+}
+
+#tips3 {
+	background: url("../img/tips3.jpg") no-repeat; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+	-ms-background-size: cover;
+  	background-size: cover;
+	height: 350px;
+}
+
+footer p:first-of-type {
+	text-align: left;
+}
+
+footer a{
+	text-decoration: none;
+}
+
+footer ul {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+footer li {
+	text-align: left;
+	padding-right: 1em;
+	margin-bottom: 1em;
+	color: #707ba8;
+}
+
+footer a {
+	text-decoration: none;
+}
+
+footer ul:first-of-type li {
+	display: inline-block;
+	margin-right: 1rem;
+}
+
+footer h6 {
+	font-size: 1rem;
+}
+
+
 
 /*--------------------------------------------------------------
 7.0 - UTILITIES
@@ -119,8 +326,15 @@
 
 /* -- ALIGNMENT -- */
 
-/* -- COLOR -- */
 
+/* -- COLOR -- */
+.purp {
+	background-color: #4043bc;
+}
+
+.pnk {
+	background-color: #ff5c97;
+}
 /* -- SIZE -- */
 
 
